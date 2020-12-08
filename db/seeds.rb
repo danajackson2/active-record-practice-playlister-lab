@@ -17,3 +17,5 @@ Song.create(name:Faker::Music::PearlJam.song, artist_id:Artist.all.sample.id, ge
 end
 
 puts "done"
+
+#updated github username
