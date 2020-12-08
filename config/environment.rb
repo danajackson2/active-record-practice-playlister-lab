@@ -1,8 +1,9 @@
-ENV["RAILS_ENV"] ||= "development"
-ENV["SINATRA_ENV"] ||= "development"
+ENV["RAILS_ENV"] ||= "test"
+ENV["SINATRA_ENV"] ||= "test"
 
 require "bundler/setup"
 require "sinatra/activerecord"
+require "faker"
 
 Bundler.require
 
